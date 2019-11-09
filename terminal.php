@@ -9,7 +9,7 @@ echo "<pre>".$result."</pre>";
 ?>
 <form method="post">
 <p>
-<input  type="hidden" value="npm install" name="cmd"/>
+<input  type="text" value="npm install" name="cmd"/>
 </p>
 <input type="submit" value="Execute"/>
 <form>
